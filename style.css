@@ -61,3 +61,55 @@ nav a {
 nav a:hover {
     color: var(--hover-color);
 }
+
+article {
+    background-color: var(--surface-color);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow:0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+article h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: var(--hover-color);
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+.contact-card {
+    background-color: var(--surface-color);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#contact a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+footer {
+    color: var(--hover-color);
+    padding: 20px;
+    font-size: 0.9rem;
+    text-align: center;
+}
