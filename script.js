@@ -10,3 +10,10 @@ themeToggle.addEventListener("click", function() {
         themeToggle.textContent = "Light Mode";
     }
 });
+
+if (typeof ScrollReveal !== "undefined" && !window.matchMedia("(prefers-reduced-mottion: reduce)").matches) {
+    ScrollReveal().reveal("#about, #projects, #contact",{
+        distance: "25px", duration: 700, origin: "bottom", interval: 150, reset: false
+
+    });
+}
