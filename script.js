@@ -17,3 +17,9 @@ if (typeof ScrollReveal !== "undefined" && !window.matchMedia("(prefers-reduced-
 
     });
 }
+
+if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    VanillaTilt.init(document.querySelectorAll("#projects article"), {
+        max: 1.5, speed: 400, scale: 1, glare: false, gyroscope: false
+    });
+}
